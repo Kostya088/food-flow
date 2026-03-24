@@ -1,30 +1,34 @@
 .card {
   border: 1px solid rgba(31, 23, 20, 0.12);
+  border-right: 0.25rem solid rgba(2, 56, 32, 0.42);
   border-radius: 12px;
   overflow: hidden;
-  background:
-    linear-gradient(180deg, rgba(236, 230, 222, 0.42) 0%, rgba(236, 230, 222, 0) 4rem),
-    linear-gradient(180deg, #ffffff 0%, #faf9f7 100%);
+  background: #fff4e6;
   display: grid;
   grid-template-rows: auto 1fr;
   box-shadow: 0 14px 28px rgba(23, 32, 42, 0.08);
-  transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
+  transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease, background-color 0.22s ease;
   animation: cardEnter 0.45s ease both;
 }
 
 .card:hover {
-  transform: translateY(-8px) scale(1.015);
-  border-color: rgba(122, 104, 81, 0.42);
-  box-shadow: 0 24px 42px rgba(23, 32, 42, 0.14);
+  transform: translateY(-5px) scale(1.01);
+  border-color: #f9a11b;
+  box-shadow: 0 10px 18px rgba(2, 56, 32, 0.12);
+}
+
+.card:focus-within {
+  transform: translateY(-5px) scale(1.01);
+  border-color: #f9a11b;
+  background: #ffefcb;
+  box-shadow: 0 0 0 4px rgba(249, 161, 27, 0.24);
 }
 
 .imageWrap {
   position: relative;
   width: 100%;
   aspect-ratio: 16 / 11;
-  background:
-    linear-gradient(135deg, rgba(236, 230, 222, 0.7) 0%, rgba(255, 255, 255, 0.16) 100%),
-    #efe9df;
+  background: #ffefcb;
 }
 
 .content {
@@ -57,9 +61,9 @@
   margin-top: auto;
   width: 100%;
   min-height: 2.9rem;
-  border: 1px solid rgba(122, 104, 81, 0.16);
+  border: 1px solid rgba(201, 74, 56, 0.38);
   border-radius: 10px;
-  background: linear-gradient(180deg, var(--accent-primary) 0%, var(--accent-primary-deep) 100%);
+  background: #c94a38;
   color: #ffffff;
   padding: 0.65rem 0.9rem;
   font-family: var(--font-display), sans-serif;
@@ -68,13 +72,19 @@
   letter-spacing: 0.06em;
   text-transform: uppercase;
   cursor: pointer;
-  transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
 }
 
 .button:hover {
-  transform: translateY(-1px);
-  filter: brightness(1.05);
-  box-shadow: 0 12px 20px rgba(100, 83, 63, 0.22);
+  transform: translateY(-2px);
+  background: #a63d2f;
+}
+
+.button:focus-visible {
+  transform: translateY(-2px);
+  background: #a63d2f;
+  box-shadow: 0 0 0 4px rgba(249, 161, 27, 0.24);
+  outline: none;
 }
 
 @keyframes cardEnter {

@@ -1,9 +1,7 @@
 .panel {
   border: 1px solid var(--line-strong);
   border-radius: 16px;
-  background:
-    linear-gradient(180deg, rgba(236, 230, 222, 0.55) 0%, rgba(236, 230, 222, 0) 7rem),
-    linear-gradient(180deg, var(--bg-card) 0%, var(--bg-surface) 100%);
+  background: #eef4f0;
   padding: 1rem;
   min-height: 100%;
   box-shadow: var(--shadow-soft);
@@ -61,7 +59,7 @@
 .sortSelect {
   border: 1px solid var(--line-strong);
   border-radius: 10px;
-  background-color: #fff;
+  background-color: #fff4e6;
   color: var(--ink-900);
   padding: 0.45rem 0.65rem;
   min-height: 2.2rem;
@@ -80,27 +78,29 @@
 }
 
 .filterChip {
-  background: rgba(236, 230, 222, 0.6);
+  background: #fff4e6;
   color: var(--ink-700);
 }
 
 .filterChip:hover,
 .filterChip:focus-visible {
   transform: translateY(-1px);
+  border-color: #f9a11b;
+  background: #ffefcb;
 }
 
 .filterChipActive {
-  background: var(--accent-primary);
-  border-color: var(--accent-primary);
-  color: #fff;
+  background: #023820;
+  border-color: #023820;
+  color: #fff4e6;
 }
 
 .filterChipActive:hover,
 .filterChipActive:focus-visible,
 .filterChipActive:active {
-  background: var(--accent-primary-deep);
-  border-color: var(--accent-primary-deep);
-  color: #fff;
+  background: #023820;
+  border-color: #023820;
+  color: #fff4e6;
 }
 
 .grid {

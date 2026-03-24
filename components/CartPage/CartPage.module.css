@@ -8,9 +8,7 @@
 .cartPanel {
   border: 1px solid var(--line-strong);
   border-radius: 16px;
-  background:
-    linear-gradient(180deg, rgba(236, 230, 222, 0.5) 0%, rgba(236, 230, 222, 0) 7rem),
-    linear-gradient(180deg, var(--bg-card) 0%, var(--bg-surface) 100%);
+  background: #eef4f0;
   padding: 1rem;
   box-shadow: var(--shadow-soft);
 }
@@ -44,10 +42,10 @@
 .submitButton {
   width: 100%;
   min-height: 3.1rem;
-  border: 1px solid rgba(122, 104, 81, 0.16);
+  border: 1px solid rgba(2, 56, 32, 0.3);
   border-radius: 10px;
-  background: linear-gradient(180deg, var(--accent-primary) 0%, var(--accent-primary-deep) 100%);
-  color: #ffffff;
+  background: #023820;
+  color: #fff4e6;
   font-family: var(--font-display), sans-serif;
   font-size: 1rem;
   font-weight: 700;
@@ -55,7 +53,17 @@
   text-transform: uppercase;
   padding-inline: 1.25rem;
   cursor: pointer;
-  box-shadow: 0 12px 22px rgba(100, 83, 63, 0.18);
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.submitButton:hover {
+  background: #012b18;
+  transform: translateY(-1px);
+}
+
+.submitButton:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(249, 161, 27, 0.24);
 }
 
 .submitButton:disabled {

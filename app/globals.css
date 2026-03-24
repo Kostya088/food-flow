@@ -1,22 +1,22 @@
 @import "modern-normalize/modern-normalize.css";
 
 :root {
-  --bg-base: #ffffff;
-  --bg-surface: #fbfbfa;
-  --bg-card: #ffffff;
-  --bg-ink: #1c242c;
-  --bg-ink-soft: #313c46;
-  --accent-primary: #7a6851;
-  --accent-primary-deep: #64533f;
-  --accent-soft: #ece6de;
-  --accent-highlight: #c9b69a;
-  --ink-900: #17202a;
-  --ink-700: #44505c;
-  --ink-500: #73808d;
-  --line-strong: rgba(23, 32, 42, 0.14);
-  --line-soft: rgba(23, 32, 42, 0.08);
-  --shadow-strong: 0 20px 48px rgba(23, 32, 42, 0.12);
-  --shadow-soft: 0 14px 30px rgba(23, 32, 42, 0.08);
+  --bg-base: #ffefcb;
+  --bg-surface: #fff4e6;
+  --bg-card: #fff4e6;
+  --bg-ink: #023820;
+  --bg-ink-soft: #04512e;
+  --accent-primary: #023820;
+  --accent-primary-deep: #012b18;
+  --accent-soft: #ffefcb;
+  --accent-highlight: #f9a11b;
+  --ink-900: #023820;
+  --ink-700: #30533f;
+  --ink-500: #5e7568;
+  --line-strong: rgba(2, 56, 32, 0.18);
+  --line-soft: rgba(2, 56, 32, 0.1);
+  --shadow-strong: 0 20px 48px rgba(2, 56, 32, 0.16);
+  --shadow-soft: 0 14px 30px rgba(2, 56, 32, 0.1);
 }
 
 html {
@@ -33,9 +33,7 @@ body {
 body {
   min-height: 100%;
   color: var(--ink-900);
-  background:
-    radial-gradient(circle at top left, rgba(236, 230, 222, 0.65) 0%, transparent 18%),
-    linear-gradient(180deg, #ffffff 0%, #fbfbfa 100%);
+  background: #fff4e6;
   font-family: var(--font-body), sans-serif;
   font-size: 1rem;
   line-height: 1.55;
@@ -55,7 +53,7 @@ a {
 }
 
 ::selection {
-  background-color: rgba(201, 182, 154, 0.45);
+  background-color: rgba(249, 161, 27, 0.4);
 }
 
 button,
@@ -83,8 +81,6 @@ img {
 @media only screen and (min-width: 1440px) {
   body {
     font-size: 1.04rem;
-    background:
-      radial-gradient(circle at top left, rgba(236, 230, 222, 0.65) 0%, transparent 16%),
-      linear-gradient(180deg, #ffffff 0%, #fbfbfa 100%);
+    background: #fff4e6;
   }
 }
