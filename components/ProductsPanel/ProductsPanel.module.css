@@ -1,0 +1,177 @@
+.panel {
+  border: 1px solid var(--line-strong);
+  border-radius: 16px;
+  background:
+    linear-gradient(180deg, rgba(236, 230, 222, 0.55) 0%, rgba(236, 230, 222, 0) 7rem),
+    linear-gradient(180deg, var(--bg-card) 0%, var(--bg-surface) 100%);
+  padding: 1rem;
+  min-height: 100%;
+  box-shadow: var(--shadow-soft);
+}
+
+.headingWrap {
+  margin-bottom: 1rem;
+  padding-bottom: 0.9rem;
+  border-bottom: 1px solid rgba(31, 23, 20, 0.12);
+}
+
+.title {
+  font-family: var(--font-display), sans-serif;
+  font-size: 1.8rem;
+  margin-bottom: 0.25rem;
+  color: var(--bg-ink);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.subtitle {
+  color: var(--ink-500);
+  font-size: 0.95rem;
+  letter-spacing: 0.03em;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-top: 0.9rem;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.sortWrap {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  width: fit-content;
+}
+
+.sortLabel {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--ink-700);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.sortSelect {
+  border: 1px solid var(--line-strong);
+  border-radius: 10px;
+  background-color: #fff;
+  color: var(--ink-900);
+  padding: 0.45rem 0.65rem;
+  min-height: 2.2rem;
+}
+
+.filterChip {
+  border: 1px solid var(--line-strong);
+  border-radius: 999px;
+  padding: 0.35rem 0.8rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: transform 120ms ease, background-color 120ms ease, border-color 120ms ease;
+}
+
+.filterChip {
+  background: rgba(236, 230, 222, 0.6);
+  color: var(--ink-700);
+}
+
+.filterChip:hover,
+.filterChip:focus-visible {
+  transform: translateY(-1px);
+}
+
+.filterChipActive {
+  background: var(--accent-primary);
+  border-color: var(--accent-primary);
+  color: #fff;
+}
+
+.filterChipActive:hover,
+.filterChipActive:focus-visible,
+.filterChipActive:active {
+  background: var(--accent-primary-deep);
+  border-color: var(--accent-primary-deep);
+  color: #fff;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.emptyState {
+  margin-top: 0.9rem;
+  color: var(--ink-600);
+  font-size: 0.92rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .panel {
+    padding: 1.25rem;
+    border-radius: 18px;
+  }
+
+  .headingWrap {
+    margin-bottom: 1.15rem;
+    padding-bottom: 1rem;
+  }
+
+  .title {
+    font-size: 2.2rem;
+  }
+
+  .grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.1rem;
+  }
+
+  .controls {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .sortWrap {
+    align-self: flex-start;
+  }
+
+  .sortLabel {
+    font-size: 0.82rem;
+  }
+
+  .sortSelect {
+    min-height: 2.3rem;
+  }
+
+  .filterChip {
+    font-size: 0.82rem;
+    padding: 0.4rem 0.9rem;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .panel {
+    padding: 1.5rem;
+    border-radius: 20px;
+  }
+
+  .title {
+    font-size: 2.5rem;
+  }
+
+  .grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1.15rem;
+  }
+}

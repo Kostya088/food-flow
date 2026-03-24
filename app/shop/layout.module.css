@@ -1,0 +1,48 @@
+.page {
+  width: min(100%, calc(100% - 1rem));
+  margin: 0.75rem auto 1.4rem;
+  display: grid;
+  gap: 1rem;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  align-items: start;
+}
+
+.sidebar,
+.products {
+  min-height: auto;
+}
+
+@media only screen and (min-width: 768px) {
+  .page {
+    width: min(100%, calc(100% - 2rem));
+    margin-top: 1rem;
+  }
+
+  .main {
+    grid-template-columns: 280px 1fr;
+    gap: 1.15rem;
+  }
+
+  .sidebar,
+  .products {
+    min-height: 68vh;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .page {
+    width: min(1400px, calc(100% - 4rem));
+    margin: 1.2rem auto 1.8rem;
+    gap: 1.25rem;
+  }
+
+  .main {
+    grid-template-columns: 320px 1fr;
+    gap: 1.35rem;
+  }
+}

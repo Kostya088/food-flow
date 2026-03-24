@@ -1,0 +1,482 @@
+[
+  {
+    "name": "Mc Donny",
+    "rating": "4.8",
+    "products": [
+      {
+        "name": "Big Big Burger",
+        "price": 888,
+        "category": "burger",
+        "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=400&h=250"
+      },
+      {
+        "name": "Small Big Burger",
+        "price": 450,
+        "category": "burger",
+        "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=400&h=250"
+      },
+      {
+        "name": "Double Cheese Burger",
+        "price": 550,
+        "category": "burger",
+        "image": "https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?auto=format&fit=crop&w=400&h=250"
+      },
+      {
+        "name": "Fish Fillet Sandwich",
+        "price": 400,
+        "category": "burger",
+        "image": "https://images.unsplash.com/photo-1521305916504-4a1121188589?auto=format&fit=crop&w=400&h=250"
+      },
+      {
+        "name": "Mc Muffin",
+        "price": 320,
+        "category": "burger",
+        "image": "https://images.unsplash.com/photo-1550507992-eb63ffee0847?auto=format&fit=crop&w=400&h=250"
+      },
+      {
+        "name": "Chicken Nuggets (10pcs)",
+        "price": 350,
+        "category": "side",
+        "image": "https://images.unsplash.com/photo-1627662168223-7df99068099a?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      },
+      {
+        "name": "Golden Fries",
+        "price": 150,
+        "category": "side",
+        "image": "https://images.unsplash.com/photo-1585109649139-366815a0d713?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      },
+      {
+        "name": "Onion Rings",
+        "price": 180,
+        "category": "side",
+        "image": "https://images.unsplash.com/photo-1639024471283-03518883512d?auto=format&fit=crop&w=400&h=250"
+      },
+      {
+        "name": "Garden Salad",
+        "price": 300,
+        "category": "side",
+        "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=400&h=250"
+      },
+      {
+        "name": "Vanilla Shake",
+        "price": 250,
+        "category": "drink",
+        "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=400&h=250"
+      },
+      {
+        "name": "Iced Coffee",
+        "price": 180,
+        "category": "drink",
+        "image": "https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=400&h=250"
+      },
+      {
+        "name": "Orange Juice",
+        "price": 150,
+        "category": "drink",
+        "image": "https://images.unsplash.com/photo-1641659735894-45046caad624?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      },
+      {
+        "name": "Apple Pie",
+        "price": 120,
+        "category": "dessert",
+        "image": "https://images.unsplash.com/photo-1568571780765-9276ac8b75a2?auto=format&fit=crop&w=400&h=250"
+      },
+      {
+        "name": "Chocolate Sundae",
+        "price": 200,
+        "category": "dessert",
+        "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=400&h=250"
+      },
+      {
+        "name": "Strawberry Tart",
+        "price": 280,
+        "category": "dessert",
+        "image": "https://images.unsplash.com/photo-1519915028121-7d3463d20b13?auto=format&fit=crop&w=400&h=250"
+      }
+    ]
+  },
+  {
+    "name": "CFK",
+    "rating": "4",
+    "products": [
+      {
+        "name": "Crispy Chicken Bucket",
+        "price": 999,
+        "category": "chicken",
+        "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?auto=format&fit=crop&w=400&h=250"
+      },
+      {
+        "name": "Hot Wings (6pcs)",
+        "price": 400,
+        "category": "chicken",
+        "image": "https://images.unsplash.com/photo-1567620832903-9fc6debc209f?auto=format&fit=crop&w=400&h=250"
+      },
+      {
+        "name": "Popcorn Chicken",
+        "price": 350,
+        "category": "chicken",
+        "image": "https://images.unsplash.com/photo-1767469576675-0c02a8d66f4c?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      },
+      {
+        "name": "Zesty Sandwich",
+        "price": 550,
+        "category": "burger",
+        "image": "https://images.unsplash.com/photo-1606755962773-d324e0a13086?auto=format&fit=crop&w=400&h=250"
+      },
+      {
+        "name": "Spicy Rice Bowl",
+        "price": 450,
+        "category": "main",
+        "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=400&h=250"
+      },
+      {
+        "name": "Coleslaw",
+        "price": 100,
+        "category": "side",
+        "image": "https://images.unsplash.com/photo-1537784969314-05a37106f68e?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      },
+      {
+        "name": "Corn on the Cob",
+        "price": 120,
+        "category": "side",
+        "image": "https://images.unsplash.com/photo-1551754655-cd27e38d2076?auto=format&fit=crop&w=400&h=250"
+      },
+      {
+        "name": "Mashed Potatoes",
+        "price": 220,
+        "category": "side",
+        "image": "https://images.unsplash.com/photo-1707616954324-99c89a78a20d?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      },
+      {
+        "name": "Biscuits (2pcs)",
+        "price": 150,
+        "category": "side",
+        "image": "https://images.unsplash.com/photo-1600431521340-491eca880813?auto=format&fit=crop&w=400&h=250"
+      },
+      {
+        "name": "Sweet Corn Salad",
+        "price": 210,
+        "category": "side",
+        "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=400&h=250"
+      },
+      {
+        "name": "Gravy Dip",
+        "price": 50,
+        "category": "sauce",
+        "image": "https://images.unsplash.com/photo-1604152135912-04a022e23696?auto=format&fit=crop&w=400&h=250"
+      },
+      {
+        "name": "Lemonade",
+        "price": 180,
+        "category": "drink",
+        "image": "https://images.unsplash.com/photo-1656936632107-0bfa69ea06de?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      },
+      {
+        "name": "Iced Tea",
+        "price": 180,
+        "category": "drink",
+        "image": "https://images.unsplash.com/photo-1499638673689-79a0b5115d87?auto=format&fit=crop&w=400&h=250"
+      },
+      {
+        "name": "Chocolate Chip Cookie",
+        "price": 90,
+        "category": "dessert",
+        "image": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=400&h=250"
+      },
+      {
+        "name": "Family Feast",
+        "price": 2500,
+        "category": "chicken",
+        "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=400&h=250"
+      }
+    ]
+  },
+  {
+    "name": "Pizza Parent",
+    "rating": "3.7",
+    "products": [
+      {
+        "name": "Pepperoni Feast",
+        "price": 1200,
+        "category": "pizza",
+        "image": "https://images.unsplash.com/photo-1628840042765-356cda07504e?auto=format&fit=crop&w=400&h=250"
+      },
+      {
+        "name": "Veggie Delight",
+        "price": 1100,
+        "category": "pizza",
+        "image": "https://images.unsplash.com/photo-1571407970349-bc81e7e96d47?auto=format&fit=crop&w=400&h=250"
+      },
+      {
+        "name": "BBQ Chicken Pizza",
+        "price": 1300,
+        "category": "pizza",
+        "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=400&h=250"
+      },
+      {
+        "name": "Margherita Classic",
+        "price": 950,
+        "category": "pizza",
+        "image": "https://images.unsplash.com/photo-1627626775846-122b778965ae?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      },
+      {
+        "name": "Hawaiian Pizza",
+        "price": 1150,
+        "category": "pizza",
+        "image": "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?auto=format&fit=crop&w=400&h=250"
+      },
+      {
+        "name": "Meat Lovers Special",
+        "price": 1500,
+        "category": "pizza",
+        "image": "https://images.unsplash.com/photo-1541745537411-b8046dc6d66c?auto=format&fit=crop&w=400&h=250"
+      },
+      {
+        "name": "Garlic Knots",
+        "price": 300,
+        "category": "side",
+        "image": "https://images.unsplash.com/photo-1716393374741-02f485f25d61?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      },
+      {
+        "name": "Caesar Salad",
+        "price": 400,
+        "category": "side",
+        "image": "https://images.unsplash.com/photo-1746211108786-ca20c8f80ecd?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      },
+      {
+        "name": "Mozzarella Sticks",
+        "price": 450,
+        "category": "side",
+        "image": "https://images.unsplash.com/photo-1734774924912-dcbb467f8599?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      },
+      {
+        "name": "Buffalo Wings",
+        "price": 600,
+        "category": "side",
+        "image": "https://images.unsplash.com/photo-1527477396000-e27163b481c2?auto=format&fit=crop&w=400&h=250"
+      },
+      {
+        "name": "Soda Can",
+        "price": 100,
+        "category": "drink",
+        "image": "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&w=400&h=250"
+      },
+      {
+        "name": "Bottled Water",
+        "price": 80,
+        "category": "drink",
+        "image": "https://images.unsplash.com/photo-1616118132534-381148898bb4?q=80&w=928&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      },
+      {
+        "name": "Red Wine (Glass)",
+        "price": 700,
+        "category": "drink",
+        "image": "https://images.unsplash.com/photo-1561461056-77634126673a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cmVkJTIwd2luZXxlbnwwfHwwfHx8MA%3D%3D"
+      },
+      {
+        "name": "Chocolate Lava Cake",
+        "price": 350,
+        "category": "dessert",
+        "image": "https://images.unsplash.com/photo-1624353365286-3f8d62daad51?auto=format&fit=crop&w=400&h=250"
+      },
+      {
+        "name": "Tiramisu",
+        "price": 500,
+        "category": "dessert",
+        "image": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?auto=format&fit=crop&w=400&h=250"
+      }
+    ]
+  },
+  {
+    "name": "Sushi Zen",
+    "rating": "1.8",
+    "products": [
+      {
+        "name": "California Roll",
+        "price": 600,
+        "category": "sushi",
+        "image": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=400&h=250"
+      },
+      {
+        "name": "Salmon Nigiri",
+        "price": 750,
+        "category": "sushi",
+        "image": "https://images.unsplash.com/photo-1583623025817-d180a2221d0a?auto=format&fit=crop&w=400&h=250"
+      },
+      {
+        "name": "Spicy Tuna Roll",
+        "price": 800,
+        "category": "sushi",
+        "image": "https://images.unsplash.com/photo-1559410545-0bdcd187e0a6?auto=format&fit=crop&w=400&h=250"
+      },
+      {
+        "name": "Dragon Roll",
+        "price": 1200,
+        "category": "sushi",
+        "image": "https://images.unsplash.com/photo-1617196034796-73dfa7b1fd56?auto=format&fit=crop&w=400&h=250"
+      },
+      {
+        "name": "Shrimp Tempura",
+        "price": 850,
+        "category": "main",
+        "image": "https://images.unsplash.com/photo-1562607351-576f9660d579?auto=format&fit=crop&w=400&h=250"
+      },
+      {
+        "name": "Chicken Teriyaki Bowl",
+        "price": 950,
+        "category": "main",
+        "image": "https://images.unsplash.com/photo-1596797038558-9da421b674d8?auto=format&fit=crop&w=400&h=250"
+      },
+      {
+        "name": "Miso Soup",
+        "price": 200,
+        "category": "side",
+        "image": "https://images.unsplash.com/photo-1607333284149-14e393a5238a?auto=format&fit=crop&w=400&h=250"
+      },
+      {
+        "name": "Edamame",
+        "price": 300,
+        "category": "side",
+        "image": "https://images.unsplash.com/photo-1528751021253-3392764b8d71?auto=format&fit=crop&w=400&h=250"
+      },
+      {
+        "name": "Seaweed Salad",
+        "price": 400,
+        "category": "side",
+        "image": "https://images.unsplash.com/photo-1534422298391-e4f8c170db06?auto=format&fit=crop&w=400&h=250"
+      },
+      {
+        "name": "Gyoza (6pcs)",
+        "price": 550,
+        "category": "side",
+        "image": "https://images.unsplash.com/photo-1541696432-82c6da8ce7bf?auto=format&fit=crop&w=400&h=250"
+      },
+      {
+        "name": "Green Tea",
+        "price": 150,
+        "category": "drink",
+        "image": "https://images.unsplash.com/photo-1627435601361-ec25f5b1d0e5?auto=format&fit=crop&w=400&h=250"
+      },
+      {
+        "name": "Sake (Small Bottle)",
+        "price": 900,
+        "category": "drink",
+        "image": "https://images.unsplash.com/photo-1601361907572-88741348393e?auto=format&fit=crop&w=400&h=250"
+      },
+      {
+        "name": "Ramune Soda",
+        "price": 250,
+        "category": "drink",
+        "image": "https://images.unsplash.com/photo-1556881286-fc6915169721?auto=format&fit=crop&w=400&h=250"
+      },
+      {
+        "name": "Green Tea Ice Cream",
+        "price": 350,
+        "category": "dessert",
+        "image": "https://images.unsplash.com/photo-1505394033343-431d1b240315?auto=format&fit=crop&w=400&h=250"
+      },
+      {
+        "name": "Mochi Mix (3pcs)",
+        "price": 450,
+        "category": "dessert",
+        "image": "https://images.unsplash.com/photo-1582298538104-fe2e74c27f59?auto=format&fit=crop&w=400&h=250"
+      }
+    ]
+  },
+  {
+    "name": "Taco Time",
+    "rating": "2",
+    "products": [
+      {
+        "name": "Beef Tacos (3pcs)",
+        "price": 600,
+        "category": "taco",
+        "image": "https://images.unsplash.com/photo-1552332386-f8dd00dc2f85?auto=format&fit=crop&w=400&h=250"
+      },
+      {
+        "name": "Chicken Burrito",
+        "price": 750,
+        "category": "main",
+        "image": "https://images.unsplash.com/photo-1626700051175-6518a4993f47?auto=format&fit=crop&w=400&h=250"
+      },
+      {
+        "name": "Steak Quesadilla",
+        "price": 850,
+        "category": "main",
+        "image": "https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e?auto=format&fit=crop&w=400&h=250"
+      },
+      {
+        "name": "Veggie Taco",
+        "price": 450,
+        "category": "taco",
+        "image": "https://images.unsplash.com/photo-1599974579688-8dbdd335c77f?auto=format&fit=crop&w=400&h=250"
+      },
+      {
+        "name": "Fish Tacos",
+        "price": 700,
+        "category": "taco",
+        "image": "https://images.unsplash.com/photo-1512838283125-984245f80cb6?auto=format&fit=crop&w=400&h=250"
+      },
+      {
+        "name": "Nachos Supreme",
+        "price": 550,
+        "category": "side",
+        "image": "https://images.unsplash.com/photo-1513456852971-30c0b8199d4d?auto=format&fit=crop&w=400&h=250"
+      },
+      {
+        "name": "Chips & Guacamole",
+        "price": 400,
+        "category": "side",
+        "image": "https://images.unsplash.com/photo-1571407921849-48093279188d?auto=format&fit=crop&w=400&h=250"
+      },
+      {
+        "name": "Elote (Street Corn)",
+        "price": 350,
+        "category": "side",
+        "image": "https://images.unsplash.com/photo-1625938146369-adc83368bca7?auto=format&fit=crop&w=400&h=250"
+      },
+      {
+        "name": "Mexican Rice",
+        "price": 250,
+        "category": "side",
+        "image": "https://images.unsplash.com/photo-1541518763669-27f714352555?auto=format&fit=crop&w=400&h=250"
+      },
+      {
+        "name": "Horchata",
+        "price": 200,
+        "category": "drink",
+        "image": "https://images.unsplash.com/photo-1541658016709-82535e94bc71?auto=format&fit=crop&w=400&h=250"
+      },
+      {
+        "name": "Jarritos Soda",
+        "price": 250,
+        "category": "drink",
+        "image": "https://images.unsplash.com/photo-1625772299848-391b6a87d7b3?auto=format&fit=crop&w=400&h=250"
+      },
+      {
+        "name": "Margarita (Glass)",
+        "price": 800,
+        "category": "drink",
+        "image": "https://images.unsplash.com/photo-1582234372722-50d7ccc30ebd?auto=format&fit=crop&w=400&h=250"
+      },
+      {
+        "name": "Churros with Chocolate",
+        "price": 450,
+        "category": "dessert",
+        "image": "https://images.unsplash.com/photo-1624353365286-3f8d62daad51?auto=format&fit=crop&w=400&h=250"
+      },
+      {
+        "name": "Tres Leches Cake",
+        "price": 500,
+        "category": "dessert",
+        "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=400&h=250"
+      },
+      {
+        "name": "Enchilada Platter",
+        "price": 1100,
+        "category": "main",
+        "image": "https://images.unsplash.com/photo-1534352956036-cd81e27dd615?auto=format&fit=crop&w=400&h=250"
+      }
+    ]
+  }
+]

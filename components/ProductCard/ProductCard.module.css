@@ -1,0 +1,119 @@
+.card {
+  border: 1px solid rgba(31, 23, 20, 0.12);
+  border-radius: 12px;
+  overflow: hidden;
+  background:
+    linear-gradient(180deg, rgba(236, 230, 222, 0.42) 0%, rgba(236, 230, 222, 0) 4rem),
+    linear-gradient(180deg, #ffffff 0%, #faf9f7 100%);
+  display: grid;
+  grid-template-rows: auto 1fr;
+  box-shadow: 0 14px 28px rgba(23, 32, 42, 0.08);
+  transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
+  animation: cardEnter 0.45s ease both;
+}
+
+.card:hover {
+  transform: translateY(-8px) scale(1.015);
+  border-color: rgba(122, 104, 81, 0.42);
+  box-shadow: 0 24px 42px rgba(23, 32, 42, 0.14);
+}
+
+.imageWrap {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 11;
+  background:
+    linear-gradient(135deg, rgba(236, 230, 222, 0.7) 0%, rgba(255, 255, 255, 0.16) 100%),
+    #efe9df;
+}
+
+.content {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.name {
+  font-family: var(--font-display), sans-serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.price {
+  width: fit-content;
+  padding: 0.3rem 0.65rem;
+  border: 1px solid rgba(31, 23, 20, 0.12);
+  border-radius: 999px;
+  background-color: rgba(255, 255, 255, 0.72);
+  color: var(--bg-ink);
+  font-weight: 700;
+}
+
+.button {
+  margin-top: auto;
+  width: 100%;
+  min-height: 2.9rem;
+  border: 1px solid rgba(122, 104, 81, 0.16);
+  border-radius: 10px;
+  background: linear-gradient(180deg, var(--accent-primary) 0%, var(--accent-primary-deep) 100%);
+  color: #ffffff;
+  padding: 0.65rem 0.9rem;
+  font-family: var(--font-display), sans-serif;
+  font-size: 0.98rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease;
+}
+
+.button:hover {
+  transform: translateY(-1px);
+  filter: brightness(1.05);
+  box-shadow: 0 12px 20px rgba(100, 83, 63, 0.22);
+}
+
+@keyframes cardEnter {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .card {
+    border-radius: 14px;
+  }
+
+  .content {
+    padding: 1.1rem;
+  }
+
+  .name {
+    font-size: 1.4rem;
+  }
+
+  .button {
+    width: auto;
+    min-width: 10.25rem;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .content {
+    padding: 1.2rem;
+  }
+
+  .name {
+    font-size: 1.5rem;
+  }
+}
