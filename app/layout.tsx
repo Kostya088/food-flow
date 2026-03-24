@@ -17,6 +17,11 @@ const sourceSans = Source_Sans_3({
 export const metadata: Metadata = {
   title: "Food Flow",
   description: "Food ordering app with shop selection and cart checkout",
+  icons: {
+    icon: "/icon.svg",
+    shortcut: "/icon.svg",
+    apple: "/icon.svg",
+  },
 };
 
 export default function RootLayout({

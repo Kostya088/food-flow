@@ -107,6 +107,7 @@ export const ShopSidebar = () => {
         </label>
         <select
           id="shop-rating-filter"
+          name="shop-rating-filter"
           className={styles.filterSelect}
           value={ratingFilter}
           onChange={(event) =>
@@ -120,7 +121,6 @@ export const ShopSidebar = () => {
           ))}
         </select>
       </div>
-
       <button
         type="button"
         className={styles.mobileToggle}
@@ -133,7 +133,6 @@ export const ShopSidebar = () => {
           v
         </span>
       </button>
-
       <ul
         className={`${styles.list} ${isMobileListOpen ? styles.listOpen : ""}`}
       >
@@ -164,7 +163,6 @@ export const ShopSidebar = () => {
           </li>
         )}
       </ul>
-
       <h2 className={styles.desktopTitle}>Shops</h2>
       <ul className={styles.desktopList}>
         {filteredShops.map((shop) => {

@@ -6,9 +6,14 @@ import styles from "@/components/ProductCard/ProductCard.module.css";
 type ProductCardProps = {
   product: Product;
   onAddToCart: () => void;
+  prioritizeImage?: boolean;
 };
 
-export const ProductCard = ({ product, onAddToCart }: ProductCardProps) => {
+export const ProductCard = ({
+  product,
+  onAddToCart,
+  prioritizeImage = false,
+}: ProductCardProps) => {
   return (
     <article className={styles.card}>
       <div className={styles.imageWrap}>
@@ -17,6 +22,8 @@ export const ProductCard = ({ product, onAddToCart }: ProductCardProps) => {
           alt={product.name}
           fill
           sizes="(max-width: 768px) 100vw, 320px"
+          priority={prioritizeImage}
+          loading={prioritizeImage ? "eager" : "lazy"}
         />
       </div>
       <div className={styles.content}>

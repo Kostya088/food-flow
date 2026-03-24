@@ -19,6 +19,8 @@ const formatCategoryLabel = (category: string): string => {
 
 type SortOption = "price-asc" | "price-desc" | "name-asc";
 
+const PRIORITIZED_PRODUCT_IMAGE_COUNT = 6;
+
 export const ProductsPanel = () => {
   const router = useRouter();
   const searchParams = useSearchParams();
@@ -163,8 +165,13 @@ export const ProductsPanel = () => {
             })}
           </div>
           <label className={styles.sortWrap}>
-            <span className={styles.sortLabel}>Sort by</span>
+            <span className={styles.sortLabel} id="product-sort-label">
+              Sort by
+            </span>
             <select
+              id="product-sort"
+              name="product-sort"
+              aria-labelledby="product-sort-label"
               className={styles.sortSelect}
               value={sortOption}
               onChange={(event) =>
@@ -179,11 +186,12 @@ export const ProductsPanel = () => {
         </div>
       </div>
       <div className={styles.grid}>
-        {sortedProducts.map((product) => (
+        {sortedProducts.map((product, index) => (
           <ProductCard
             key={`${resolvedActiveShopId}-${product.name}`}
             product={product}
             onAddToCart={() => addItem(resolvedActiveShopId, product)}
+            prioritizeImage={index < PRIORITIZED_PRODUCT_IMAGE_COUNT}
           />
         ))}
       </div>
