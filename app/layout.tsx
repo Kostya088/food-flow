@@ -27,6 +27,14 @@ export const metadata: Metadata = {
     title: "Food Flow",
     description: "Fast food ordering across your favorite shops",
     url: "https://food-flow-psi.vercel.app/",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Food Flow",
+      },
+    ],
   },
 };
 
