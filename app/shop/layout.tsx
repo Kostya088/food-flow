@@ -1,5 +1,12 @@
+import type { Metadata } from "next";
+
 import { AppHeader } from "@/components/AppHeader/AppHeader";
 import styles from "@/app/shop/layout.module.css";
+
+export const metadata: Metadata = {
+  title: "Shop | Food Flow",
+  description: "Browse shops and menu items on Food Flow.",
+};
 
 type ShopLayoutProps = {
   children: React.ReactNode;

@@ -28,7 +28,11 @@
   border-radius: 12px;
   background: #fff4e6;
   color: var(--ink-900);
-  padding: 0.65rem 0.85rem;
+  padding: 0.65rem 2.4rem 0.65rem 0.85rem;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' fill='none' stroke='%23023820' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.9rem center;
 }
 
 .mobileToggle {
@@ -127,6 +131,13 @@
   border-color: rgba(2, 56, 32, 0.3);
   background: #023820;
   color: #fff4e6;
+}
+
+.shopButtonActive:hover,
+.shopButtonActive:focus-visible {
+  color: #023820;
+  background: #ffefcb;
+  border-color: #f9a11b;
 }
 
 .ratingBadge {
