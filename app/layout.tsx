@@ -17,7 +17,7 @@ const sourceSans = Source_Sans_3({
 export const metadata: Metadata = {
   title: "Food Flow",
   description: "Fast food ordering across your favorite shops",
-  metadataBase: new URL("https://food-flow-psi.vercel.app"),
+  metadataBase: new URL("https://food-flow-psi.vercel.app/"),
   icons: {
     icon: "/icon.svg",
     shortcut: "/icon.svg",
