@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Food Flow
 
-## Getting Started
+![Next.js](https://img.shields.io/badge/next.js-000000.svg?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 
-First, run the development server:
+> A web application where users can browse food from various shops,
+> manage a shopping cart, and place delivery orders
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Table of Contents
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- [About the Project](#about-the-project)
+- [Accomplished Level](#accomplished-level)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Project Structure](#project-structure)
+- [Installation and Running](#installation-and-running)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## About the Project
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- This project is a food delivery platform.
+- It features a multi-shop interface where users can select vendors and a dedicated checkout system.
+- The application utilizes a custom-built backend (https://github.com/Kostya088/food-flow-backend) and a live database to ensure data persistence and real-time interaction.
 
-## Learn More
+## Accomplished Level
 
-To learn more about Next.js, take a look at the following resources:
+- I have successfully implemented all requirements for the **Middle Level** of complexity. This version includes the full foundational logic of the base level along with advanced UI enhancements and data manipulation features.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Features
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 🟢 Base Level
 
-## Deploy on Vercel
+- **Shops Page**: Interface for selecting shops and adding goods to the cart with data fetched from a database.
+- **Shopping Cart**: Page to review the order, remove items, or adjust quantities.
+- **Order Submission**: Checkout form with fields for name, email, phone, and address.
+- **Data Persistence**: Automatic saving of orders to the database upon submission.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 🟡 Middle Level
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Responsive Design**: Implemented mobile first approach for optimized layout for desktop, tablet, and mobile devices.
+- **Product Filtering**: Ability to filter goods by categories such as Burgers, Drinks, or Desserts etc.
+- **Dynamic Sorting**: Sorting functionality by price or alphabetically.
+- **Shop Rating Filters**: Filtering of shops based on specific rating ranges stored in the database.
+
+## Tech Stack
+
+## 🛠️ Tech Stack
+
+- **Frontend**:
+  ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+  ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+  ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+## Installation and Running
+
+### Prerequisites
+
+- Node.js 18+
+- npm
+
+### Steps
+
+1. **Clone the repository**.
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
