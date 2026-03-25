@@ -13,7 +13,6 @@
 - [Accomplished Level](#accomplished-level)
 - [Features](#features)
 - [Tech Stack](#tech-stack)
-- [Project Structure](#project-structure)
 - [Installation and Running](#installation-and-running)
 
 ## About the Project
